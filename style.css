@@ -144,6 +144,40 @@ h3{
     margin-top: 0;
 }
 
+footer{
+    background: hsl(255, 11%, 22%);
+    text-align: center;
+    display: flex;
+}
+.part, .part2{
+    float: left;
+    margin: 25px;;
+}
+.part{
+    width: 20%;
+}
+.part2{
+    width: 50%;
+}
+footer ul{
+    float: left;
+    width: 30%;
+    margin: auto;
+    list-style-type: none;
+    padding: 0;
+}
+ul strong{
+    color: white;
+}
+footer li{
+    padding: 5px 0;
+}
+.part img{
+    padding: 10px;
+}
+#logoinverted{
+    filter: invert(100%);
+}
 
 
 @media only screen and (max-width: 420px) {
@@ -200,5 +234,22 @@ h3{
     }
     #br, #fc, #dr{
         margin-top: 75px;
+    }
+
+    footer{
+        display: block;
+    }
+    .part, .part2{
+        float: none;
+        width: 80%;
+        margin: auto;
+    }
+    .part{
+        padding: 15px;
+    }
+    footer ul{
+        float: none;
+        width: 100%;
+        margin: 15px auto;
     }
 }
