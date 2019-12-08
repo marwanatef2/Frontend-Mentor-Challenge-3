@@ -83,10 +83,28 @@ input{
     font-size: 1em;
 }
 
+.shorten{
+    width: 75%;
+    margin: 15px auto;
+    padding: 15px;
+    background: white;
+    border-radius: 10px;
+    color: hsl(257, 27%, 26%);
+    display: flow-root;
+}
+.toshorten{
+    color: hsl(257, 27%, 26%);
+    float: left;
+}
+.shortened{
+    color: hsl(180, 66%, 49%);
+    float: right;
+}
+
 .midcontainer{
     background: hsl(257, 20%, 95%);
     margin-top: -55px;
-    padding: 100px 100px 50px;
+    padding: 75px 100px 50px;
     display: inline-block;
 }
 .advanced{
@@ -251,5 +269,15 @@ footer li{
         float: none;
         width: 100%;
         margin: 15px auto;
+    }
+
+    .shorten{
+        text-align: center;
+    }
+    .toshorten{
+        display: none;
+    }
+    .shortened{
+        float: none;
     }
 }
