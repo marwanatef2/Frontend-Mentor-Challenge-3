@@ -1,0 +1,81 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    color: hsl(260, 8%, 14%)
+}
+
+a{
+    text-decoration: none;
+    color: hsl(260, 8%, 14%)
+}
+.navbar a{
+    float: right;
+    padding-left: 25px;
+}
+.navbar .getstarted{
+    margin-top: -10px ;
+}
+.navbar{
+    margin-bottom: 10px;
+    padding: 20px 100px;
+}
+
+#illustration{
+    width: 40%;
+    float: right;
+}
+.home{
+    width: 40%;
+    margin-left: 100px;
+}
+h1{
+    font-size: 4em;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.home p{
+    font-size: 1.2em;
+    color: hsl(0, 0%, 75%);
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+.container-home{
+    margin-bottom: 40px;
+}
+.getstarted{
+    color: white;
+    background-color: hsl(180, 66%, 49%);
+    border-radius: 25px;
+    padding: 10px 25px;
+}
+
+.form-container{
+    width: 60%;
+    padding: 30px 50px;
+    background: url("images/bg-shorten-desktop.svg");
+    margin: auto;
+    background-color: hsl(257, 27%, 26%);
+    border-radius: 10px;
+}
+
+input[type="text"]{
+    width: 77%;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+}
+input[type="submit"]{
+    border: none;
+    border-radius: 10px;
+    padding: 15px 25px;
+    margin-left: 5px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    color: hsl(257, 27%, 26%);
+    background: white;
+    border: 1px solid hsl(180, 66%, 49%);
+}
+input{
+    font-size: 1em;
+}
