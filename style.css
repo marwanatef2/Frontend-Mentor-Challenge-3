@@ -1,6 +1,8 @@
 body{
     font-family: 'Poppins', sans-serif;
-    color: hsl(260, 8%, 14%)
+    /* color: hsl(260, 8%, 14%) */
+    color: hsl(257, 7%, 63%);
+    margin: 0;
 }
 
 a{
@@ -31,15 +33,15 @@ h1{
     font-size: 4em;
     font-weight: 700;
     margin-bottom: 0;
+    color: hsl(260, 8%, 14%)
 }
 .home p{
     font-size: 1.2em;
-    color: hsl(0, 0%, 75%);
     margin-top: 0;
     margin-bottom: 50px;
 }
 .container-home{
-    margin-bottom: 40px;
+    margin-bottom: 100px;
 }
 .getstarted{
     color: white;
@@ -55,10 +57,11 @@ h1{
     margin: auto;
     background-color: hsl(257, 27%, 26%);
     border-radius: 10px;
+    position: relative;
 }
 
 input[type="text"]{
-    width: 77%;
+    width: 82%;
     padding: 15px;
     border-radius: 10px;
     border: none;
@@ -78,4 +81,124 @@ input[type="submit"]:hover{
 }
 input{
     font-size: 1em;
+}
+
+.midcontainer{
+    background: hsl(257, 20%, 95%);
+    margin-top: -55px;
+    padding: 100px 100px 50px;
+    display: inline-block;
+}
+.advanced{
+    width: 35%;
+    margin: auto;
+    text-align: center;
+}
+h2{
+    font-size: 2.2em;
+    color: hsl(260, 8%, 14%)
+}
+.advanced h2{
+    margin-bottom: 0;
+}
+
+.info{
+    width: 25%;
+    float: left;
+    margin: 20px 2.5%;
+    background: white;
+    padding: 0 20px;
+    border-radius: 10px;
+}
+.img-container{
+    background: hsl(257, 27%, 26%);
+    border-radius: 50%;
+    padding: 15px;
+    display: inline-block;
+    margin-top: -50px;
+}
+.img-container img{
+    width: 40px;
+}
+h3{
+    color: hsl(260, 8%, 14%);
+}
+#br{
+    margin-top: 25px;
+}
+#dr{
+    margin-top: 75px;
+}
+#fc{
+    margin-top: 125px;
+}
+
+.beforefooter{
+    background: url("images/bg-boost-desktop.svg");
+    padding: 20px 25px 40px;
+    background-color: hsl(257, 27%, 26%);
+    text-align: center;
+}
+.beforefooter h2{
+    color: white;
+    margin-top: 0;
+}
+
+
+
+@media only screen and (max-width: 420px) {
+    .container-home{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    #illustration{
+        float: none;
+        width: 95%;
+    }
+    .navbar{
+        padding: 20px;
+        text-align: initial;
+    }
+    #login{
+        padding-left: 10px;
+    }
+    .home{
+        width: 90%;
+        margin: auto;
+    }
+    .home p{
+        margin-bottom: 30px;
+    }
+    h1{
+        font-size: 3em;
+    }
+    input[type="submit"]{
+        width: 70%;
+        margin: 20px auto 0;
+        display: block;
+    }
+    input[type="text"]{
+        width: 90%;
+    }
+    .form-container{
+        width: 75%;
+        padding: 20px 30px;
+    }
+
+    .midcontainer{
+        padding: 70px 0 50px;
+    }
+    .advanced{
+        width: 85%;
+    }
+    .info{
+        float: none;
+        width: 70%;
+        padding-bottom: 10px;
+        margin: auto;
+        text-align: center;
+    }
+    #br, #fc, #dr{
+        margin-top: 75px;
+    }
 }
